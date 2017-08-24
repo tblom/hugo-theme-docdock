@@ -87,7 +87,9 @@ sub {
 
 img {
   border: 0;
-  max-width: 100%; }
+  /*max-width: 100%;*/ }
+  /* tfb commeted out max-width so that imgs in tables converted from docx to markdown
+     via pandoc will render at specified width */
 
 svg:not(:root) {
   overflow: hidden; }
